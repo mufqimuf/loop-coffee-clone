@@ -103,30 +103,30 @@ export default function Founder() {
         </p>
         <h2 className="founder-head display">
           <span className="line">
-            <span>Built in</span>
+            <span>Dibangun</span>
           </span>
           <span className="line">
             <span>
-              <em>public.</em>
+              <em>di depan publik.</em>
             </span>
           </span>
         </h2>
 
         <p className="fd-lede">
-          Irfan mulai vlogging tahun 2017 saat masih jadi desainer aplikasi mobile, lalu dikenal lewat gaya berceritanya
-          dan kalimat khasnya <em>“Scenes kuch aisay hain.”</em>
+          Mufqi mulai serius ngoprek AI & automation tahun 2025 saat masih jadi desainer UI/UX, lalu dikenal lewat
+          proyek-proyek isengnya yang dibangun terbuka dan dokumentasinya dibagikan apa adanya di LinkedIn.
         </p>
         <p className="fd-lede">
-          Loop adalah perusahaan kopinya: kopi enak, harga masuk akal, tumbuh dari mulut ke mulut dan orang-orang yang
-          rela antre untuknya.
+          CopyMufqi adalah proyek kopinya: clone situs kopi enak yang dibangun sambil belajar, tumbuh dari rasa penasaran
+          dan kebiasaan bikin sesuatu cuma karena pengen tahu caranya.
         </p>
 
         <blockquote className="fd-quote">
           <p>
-            “Aku memulai perusahaan kopi, dan inilah kami yang membangunnya di depan publik. Responsnya luar biasa.”
+            “Aku kloning situs kopi ini karna nganggur, dan inilah hasil belajarnya, dibagikan apa adanya.”
           </p>
           <cite>
-            <span className="fd-quote-dot" /> Irfan Junejo · media sosial, Januari 2026
+            <span className="fd-quote-dot" /> Mufqi Harits · LinkedIn, Oktober 2026
           </cite>
         </blockquote>
 

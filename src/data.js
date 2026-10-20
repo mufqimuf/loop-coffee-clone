@@ -101,11 +101,11 @@ export const drinks = [
 ]
 
 export const timeline = [
-  { year: '2017', text: 'Irfan mulai vlogging saat masih bekerja sebagai desainer aplikasi mobile.' },
-  { year: '2021', text: 'Membangun SCNZCREW, merek merchandise dari komunitasnya.' },
-  { year: 'Des 2025', text: '@minumcopy tayang (versi fiksi proyek ini). 47K pengikut, dan terus bertambah.' },
-  { year: 'Jan 2026', text: 'Soft launch: outlet uji coba di Balikpapan, menu singkat, antrean panjang.' },
-  { year: 'Okt 2026', text: 'Balikpapan, Samarinda, Banjarmasin dan Palangka Raya resmi buka.' },
+  { year: '2017', text: 'Mulai kuliah & kerja serabutan; pertama pegang desain grafis dan web.' },
+  { year: '2021', text: 'Jadi desainer UI/UX; proyek web & aplikasi untuk klien lokal.' },
+  { year: '2025', text: 'Juara VibeCoding 2026: membangun UraiNote, AI planner dari masalah pribadi.' },
+  { year: 'Sep 2026', text: 'Nganggur, iseng bikin AI Office & otomasi self-hosted; mulai aktif di LinkedIn.' },
+  { year: 'Okt 2026', text: 'LoopCoffeeClone (Version Mufqi): clone studi desain web ini dirilis open-source.' },
 ]
 
 export const outlets = [

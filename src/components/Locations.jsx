@@ -45,8 +45,8 @@ export default function Locations() {
           </span>
         </h2>
         <p className="loc-intro">
-          Dimulai dari satu outlet uji coba di Balikpapan. Kini Samarinda, Banjarmasin dan Palangka Raya juga buka, dengan
-          announced on Instagram first.
+          Dimulai dari satu outlet uji coba di Balikpapan. Kini Samarinda, Banjarmasin dan Palangka Raya juga buka — outlet
+          berikutnya selalu diumumkan duluan di Instagram.
         </p>
       </div>
 
@@ -73,7 +73,7 @@ export default function Locations() {
                   <div>
                     <p>{o.address}</p>
                     <a href="https://maps.google.com/?q=Kalimantan+Timur" target="_blank" rel="noreferrer">
-                      Directions <span aria-hidden="true">→</span>
+                      Lihat peta <span aria-hidden="true">→</span>
                     </a>
                   </div>
                 </div>
