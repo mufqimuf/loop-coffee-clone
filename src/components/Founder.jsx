@@ -82,13 +82,13 @@ export default function Founder() {
     <section className="founder" id="founder" ref={rootRef}>
       <div className="founder-media">
         <figure className="fd-photo">
-          <img src="assets/portrait.jpg" alt="Irfan Junejo, pendiri Loop Coffee Co." />
+          <img src="assets/portrait.jpg" alt="Mufqi Harits, pembuat clone LoopCoffeeClone ini" />
           <figcaption>
-            <span>Irfan Junejo</span>
-            <small>Pendiri · Loop Coffee Co. (proyek asli)</small>
+            <span>Mufqi Harits</span>
+            <small>Pembuat clone · CopyMufqi</small>
           </figcaption>
           <span className="fd-corner" aria-hidden="true">
-            IJ
+            MH
           </span>
         </figure>
         <div className="fd-stamp" aria-hidden="true">

@@ -159,5 +159,5 @@ export const gallery = [
   { src: 'assets/pour.jpg', caption: 'Dituang pelan', meta: 'Barnya' },
   { src: 'assets/cups.jpg', caption: 'Meja buat anak-anak', meta: 'NN Spar' },
   { src: 'assets/cup.jpg', caption: 'Cangkir terakhir, cahaya pertama', meta: '07.15' },
-  { src: 'assets/portrait.jpg', caption: 'Membangun di depan publik', meta: 'Founder' },
+  { src: 'assets/portrait.jpg', caption: 'Di tangga, mikirin loop', meta: 'Mufqi' },
 ]
