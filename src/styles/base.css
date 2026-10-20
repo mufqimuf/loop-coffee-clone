@@ -129,6 +129,25 @@ em {
   overflow: hidden;
 }
 
+/* prevent content flash before loader mounts/finishes (mobile "appear then vanish" bug) */
+#main,
+.nav {
+  opacity: 0;
+}
+
+html.is-loaded #main,
+html.is-loaded .nav {
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #main,
+  .nav-bar {
+    opacity: 1 !important;
+  }
+}
+
 .line > span {
   display: block;
   will-change: transform;
