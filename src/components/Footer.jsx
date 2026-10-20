@@ -147,7 +147,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">Kontak</a>
             </li>
           </ul>
         </div>
@@ -170,7 +170,7 @@ export default function Footer() {
         </span>
         <span className="ft-mid">Clone untuk belajar · bukan afiliasi resmi</span>
         <a className="ft-top-link" href="#home">
-          Back to top ↑
+          Ke atas ↑
         </a>
       </div>
     </footer>
