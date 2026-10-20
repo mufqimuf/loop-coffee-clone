@@ -151,7 +151,7 @@ export default function Hero({ ready }) {
       <div className="hero-glow" aria-hidden="true" />
       <div className="hero-copy">
         <p className="eyebrow hero-eyebrow">
-          <span className="live-dot" /> Karachi · Studi desain
+          <span className="live-dot" /> Kalimantan · Studi desain
         </p>
         <h1 className="hero-title">
           <span className="line">
@@ -167,21 +167,21 @@ export default function Hero({ ready }) {
           </span>
         </h1>
         <p className="hero-lede">
-          LoopCoffeeClone (Version Mufqi) — studi ulang situs Loop Coffee Co.: empat outlet-nya buka di Bukhari, Phase 8, NN 5 Star dan NN Spar. Kopi enak, harga masuk akal.
+          LoopCoffeeClone (Version Mufqi) — studi ulang situs Loop Coffee Co.: empat outlet fiktif kami buka di Balikpapan, Samarinda, Banjarmasin dan Palangka Raya. Kopi enak, harga masuk akal.
         </p>
         <div className="hero-actions">
           <a className="btn red" href="#locations">
             Lihat Lokasi <span aria-hidden="true">→</span>
           </a>
-          <a className="btn ghost" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Lihat @drinkloop.co <span aria-hidden="true">↗</span>
+          <a className="btn ghost" href="#" onClick={(e) => e.preventDefault()}>
+            Ikuti @minumcopy <span aria-hidden="true">↗</span>
           </a>
         </div>
         <div className="hero-foot">
           <span className="hero-live">
             <span className="live-dot" /> 4 outlet buka
           </span>
-          <span className="hero-coords">24.8650° N · 67.0550° E</span>
+          <span className="hero-coords">1.2379° S · 116.8529° E</span>
           <a className="scroll-cue" href="#story" aria-label="Gulir ke cerita">
             <span>Gulir</span>
             <i />

@@ -89,7 +89,7 @@ export default function Nav() {
   return (
     <>
       <header className={`top${stuck ? ' is-stuck' : ''}${hidden ? ' is-hidden' : ''}`}>
-        <a className="brand" href="#home" aria-label="Loop Coffee Co., home" onClick={() => setOpen(false)}>
+        <a className="brand" href="#home" aria-label="CopyMufqi, beranda" onClick={() => setOpen(false)}>
           <svg className="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
             <circle cx="32" cy="32" r="32" fill="var(--red)" />
             <path
@@ -108,7 +108,7 @@ export default function Nav() {
             />
             <circle cx="32" cy="32" r="4.2" fill="var(--bg)" />
           </svg>
-          <span className="brand-name">Loop Coffee Co.</span>
+          <span className="brand-name">CopyMufqi</span>
         </a>
 
         <nav className="nav" aria-label="Main">
@@ -135,7 +135,7 @@ export default function Nav() {
             </span>
             <span className="snd-text">{on ? 'Sound on' : 'Sound'}</span>
           </button>
-          <a className="btn small" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
+          <a className="btn small" href="#" onClick={(e) => e.preventDefault()}>
             Ikuti <span aria-hidden="true">↗</span>
           </a>
           <button
@@ -159,8 +159,8 @@ export default function Nav() {
               {['Cerita', 'Menu', 'Tokoh', 'Lokasi', 'Kontak'][i]}
             </a>
           ))}
-          <a className="btn red" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Ikuti @drinkloop.co ↗
+          <a className="btn red" href="#" onClick={(e) => e.preventDefault()}>
+            Ikuti @minumcopy ↗
           </a>
         </div>
       </div>

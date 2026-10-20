@@ -49,7 +49,7 @@ export default function Loader({ onDone }) {
           <span className="loader-brand">
             <span className="mark">∞</span> LoopCoffeeClone · by Mufqi
           </span>
-          <span className="loader-tag">Karachi · PK</span>
+          <span className="loader-tag">Kalimantan · ID</span>
         </div>
         <div className="loader-mid">
           <span className="loader-word">Brewing</span>

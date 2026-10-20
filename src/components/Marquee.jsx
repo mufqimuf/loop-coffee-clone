@@ -1,4 +1,4 @@
-const ITEMS = ['Bukhari', 'Phase 8', 'NN 5 Star', 'NN Spar', 'Karachi', 'Specialty coffee', 'LoopCoffeeClone · vMufqi']
+const ITEMS = ['Balikpapan', 'Samarinda', 'Banjarmasin', 'Palangka Raya', 'Kalimantan', 'Specialty coffee', 'LoopCoffeeClone · vMufqi']
 
 function Row({ reverse = false, outlined = false }) {
   return (

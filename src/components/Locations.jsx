@@ -35,17 +35,17 @@ export default function Locations() {
     <section className="locations" id="locations" ref={rootRef}>
       <div className="loc-head">
         <p className="eyebrow">
-          <span className="dot" /> Locations · Karachi
+          <span className="dot" /> Lokasi · Kalimantan
         </p>
         <h2 className="display">
           <span className="line">
             <span>
-              Live across <em>Karachi.</em>
+              Buka di seluruh <em>Kalimantan.</em>
             </span>
           </span>
         </h2>
         <p className="loc-intro">
-          It began with a test outlet in Phase 8. Today Bukhari, Phase 8, NN 5 Star and NN Spar are live, with more
+          Dimulai dari satu outlet uji coba di Balikpapan. Kini Samarinda, Banjarmasin dan Palangka Raya juga buka, dengan
           announced on Instagram first.
         </p>
       </div>
@@ -72,7 +72,7 @@ export default function Locations() {
                 <div className="outlet-detail">
                   <div>
                     <p>{o.address}</p>
-                    <a href="https://maps.google.com/?q=Karachi" target="_blank" rel="noreferrer">
+                    <a href="https://maps.google.com/?q=Kalimantan+Timur" target="_blank" rel="noreferrer">
                       Directions <span aria-hidden="true">→</span>
                     </a>
                   </div>
@@ -84,7 +84,7 @@ export default function Locations() {
             </article>
           ))}
           <p className="outlet-note">
-            Outlets as listed in Loop&apos;s Instagram bio, October 2026. More doors are announced on @drinkloop.co
+            Daftar outlet versi fiksi proyek ini, Oktober 2026. Outlet berikutnya diumumkan lewat @minumcopy
             first.
           </p>
         </div>
@@ -147,16 +147,16 @@ export default function Locations() {
                 </g>
                 <g className="map-labels">
                   <text className="lb sea" x="130" y="470">
-                    Arabian Sea
+                    Selat Makassar
                   </text>
                   <text className="lb" x="560" y="222">
-                    DHA
+                    Sudirman
                   </text>
                   <text className="lb" x="662" y="188">
-                    Clifton
+                    Gajah Mada
                   </text>
                   <text className="lb" x="700" y="142">
-                    North Nazimabad
+                    Antasari
                   </text>
                   <text className="lb" x="520" y="520">
                     Shahrah-e-Faisal
@@ -184,8 +184,8 @@ export default function Locations() {
 
             <div className="map-hud">
               <small>Now showing</small>
-              <b>Karachi</b>
-              <span>24.8650° N · 67.0550° E</span>
+              <b>Kalimantan</b>
+              <span>1.2379° S · 116.8529° E</span>
               <span className="map-hud-live">
                 <span className="live-dot" /> {outlet.name} · {outlet.area}
               </span>
@@ -211,7 +211,7 @@ export default function Locations() {
             <p className="map-credit">Data peta © OpenStreetMap contributors (ODbL)</p>
           </div>
           <p className="map-note">
-            <span className="live-dot" /> The Phase 8 pin is the address on Loop&apos;s Google Maps link; the others
+            <span className="live-dot" /> Pin Balikpapan adalah alamat fiksi proyek ini; sisanya
             mark the neighbourhood named in the bio.
           </p>
         </div>

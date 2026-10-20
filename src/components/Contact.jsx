@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { gsap } from '../lib/scroll'
 
-const PHONE = '+92 307 1115667'
+const PHONE = '+62 856-6121-052'
 
 export default function Contact() {
   const [copied, setCopied] = useState(false)
@@ -57,15 +57,15 @@ export default function Contact() {
         <h2 className="display">
           <span className="line">
             <span>
-              Say <em>hello.</em>
+              Bilang <em>halo.</em>
             </span>
           </span>
         </h2>
       </div>
 
       <div className="contact-phone">
-        <span className="contact-phone-label">Call the bar</span>
-        <a className="phone" href="tel:+923071115667">
+        <span className="contact-phone-label">Telepon barnya</span>
+        <a className="phone" href="tel:+628566121052">
           {PHONE}
         </a>
         <button type="button" className={`copy${copied ? ' is-copied' : ''}`} onClick={copy}>
@@ -77,27 +77,27 @@ export default function Contact() {
       <div className="contact-grid">
         <div className="contact-cell">
           <small>Call</small>
-          <a href="tel:+923071115667">+92 307 1115667</a>
+          <a href="tel:+628566121052">+62 856-6121-052</a>
           <span>Daily · 7:00 — 23:00</span>
         </div>
         <div className="contact-cell">
           <small>Instagram</small>
-          <a href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            @drinkloop.co ↗
+          <a href="#" onClick={(e) => e.preventDefault()}>
+            @minumcopy ↗
           </a>
           <span>47K followers · DMs open</span>
         </div>
         <div className="contact-cell">
           <small>Website</small>
-          <a href="https://drinkloop.co" target="_blank" rel="noreferrer">
-            drinkloop.co ↗
+          <a href="#" onClick={(e) => e.preventDefault()}>
+            minumcopy.co ↗
           </a>
           <span>New openings announced here first</span>
         </div>
         <div className="contact-cell">
           <small>City</small>
-          <b>Karachi, Pakistan</b>
-          <span>Bukhari · Phase 8 · NN 5 Star · NN Spar</span>
+          <b>Balikpapan, Indonesia</b>
+          <span>Balikpapan · Samarinda · Banjarmasin · Palangka Raya</span>
         </div>
       </div>
 
@@ -112,11 +112,11 @@ export default function Contact() {
           </h3>
         </div>
         <div className="contact-card-actions">
-          <a className="btn light" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Ikuti @drinkloop.co <span aria-hidden="true">↗</span>
+          <a className="btn light" href="#" onClick={(e) => e.preventDefault()}>
+            Ikuti @minumcopy <span aria-hidden="true">↗</span>
           </a>
-          <a className="btn red" href="tel:+923071115667">
-            Call {PHONE} <span aria-hidden="true">→</span>
+          <a className="btn red" href="tel:+628566121052">
+            Telepon {PHONE} <span aria-hidden="true">→</span>
           </a>
         </div>
       </div>

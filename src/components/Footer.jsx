@@ -19,7 +19,7 @@ function useKarachiTime() {
 
   useEffect(() => {
     const fmt = new Intl.DateTimeFormat('en-GB', {
-      timeZone: 'Asia/Karachi',
+      timeZone: 'Asia/Makassar',
       hour: '2-digit',
       minute: '2-digit',
       second: '2-digit',
@@ -34,7 +34,7 @@ function useKarachiTime() {
   return time
 }
 
-const loop = ['Tetap dalam loop', 'Bukhari', 'Phase 8', 'NN 5 Star', 'NN Spar', 'Karachi']
+const loop = ['Tetap dalam loop', 'Balikpapan', 'Samarinda', 'Banjarmasin', 'Palangka Raya', 'Kalimantan']
 
 export default function Footer() {
   const time = useKarachiTime()
@@ -83,11 +83,11 @@ export default function Footer() {
             Studi desain web — clone dari Loop Coffee Co. Empat outlet aslinya buka, sisanya cerita.
             <em> Tetap dalam loop.</em>
           </p>
-          <a className="ft-follow" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Lihat aslinya @drinkloop.co <span aria-hidden="true">↗</span>
+          <a className="ft-follow" href="#" onClick={(e) => e.preventDefault()}>
+            @minumcopy · segera hadir <span aria-hidden="true">↗</span>
           </a>
           <div className="ft-live">
-            <span className="live-dot" /> 4 outlets live · Karachi
+            <span className="live-dot" /> 4 outlet buka · Kalimantan
           </div>
         </div>
 
@@ -116,34 +116,34 @@ export default function Footer() {
           <h3>Find us</h3>
           <ul>
             <li>
-              <a href="#locations">Phase 8 · DHA</a>
+              <a href="#locations">Balikpapan · Kaltim</a>
             </li>
             <li>
-              <a href="#locations">Bukhari · DHA</a>
+              <a href="#locations">Samarinda · Kaltim</a>
             </li>
             <li>
-              <a href="#locations">NN Spar · North Nazimabad</a>
+              <a href="#locations">Banjarmasin · Kalsel</a>
             </li>
             <li>
-              <a href="#locations">NN 5 Star · North Nazimabad</a>
+              <a href="#locations">Palangka Raya · Kalteng</a>
             </li>
           </ul>
         </div>
 
         <div className="ft-col">
-          <h3>Say hello</h3>
+          <h3>Bilang halo</h3>
           <ul>
             <li>
-              <a href="tel:+923071115667">+92 307 1115667</a>
+              <a href="tel:+628566121052">+62 856-6121-052</a>
             </li>
             <li>
-              <a href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-                @drinkloop.co · 47K
+              <a href="#" onClick={(e) => e.preventDefault()}>
+                @minumcopy · segera
               </a>
             </li>
             <li>
-              <a href="https://drinkloop.co" target="_blank" rel="noreferrer">
-                drinkloop.co
+              <a href="#" onClick={(e) => e.preventDefault()}>
+                minumcopy.co · segera
               </a>
             </li>
             <li>
@@ -157,16 +157,16 @@ export default function Footer() {
         <span>© 2026 CopyMufqi — studi desain</span>
         <span className="ft-mid">
           Terinspirasi dari{' '}
-          <a href="https://drinkloop.co" target="_blank" rel="noreferrer">
+          <a href="#" onClick={(e) => e.preventDefault()}>
             Loop Coffee Co.
           </a>{' '}
           oleh Irfan Junejo · proyek asli:{' '}
-          <a href="https://drinkloop.co" target="_blank" rel="noreferrer">
-            drinkloop.co
+          <a href="#" onClick={(e) => e.preventDefault()}>
+            minumcopy.co
           </a>
         </span>
         <span className="ft-time">
-          Karachi <b>{time}</b> PKT · Jakarta <b>{jakTime}</b> WIB
+          Balikpapan <b>{time}</b> WITA · Jakarta <b>{jakTime}</b> WIB
         </span>
         <span className="ft-mid">Clone untuk belajar · bukan afiliasi resmi</span>
         <a className="ft-top-link" href="#home">

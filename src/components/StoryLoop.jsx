@@ -168,7 +168,7 @@ export default function StoryLoop() {
           </div>
 
           <p className="loop-note">
-            <span className="live-dot" /> Roasted, dialled, poured, repeated — Karachi, every day.
+            <span className="live-dot" /> Disangrai, dites, dituang, diulang — Kalimantan, setiap hari.
           </p>
         </div>
       </div>

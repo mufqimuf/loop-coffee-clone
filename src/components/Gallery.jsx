@@ -127,7 +127,7 @@ export default function Gallery() {
       <div className="grain" aria-hidden="true" />
       <div className="gal-head">
         <p className="eyebrow is-light">
-          <span className="live-dot" /> @drinkloop.co · 47K
+          <span className="live-dot" /> @minumcopy · segera
         </p>
         <h2 className="display">
           <span className="line">
@@ -138,8 +138,8 @@ export default function Gallery() {
         </h2>
         <div className="gal-side">
           <p>Barnya, timnya, cangkirnya: langsung dari Instagram Loop. Geser ring-nya, atau lanjut scroll aja.</p>
-          <a className="btn light" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Ikuti @drinkloop.co <span aria-hidden="true">↗</span>
+          <a className="btn light" href="#" onClick={(e) => e.preventDefault()} target="_blank" rel="noreferrer">
+            Ikuti @minumcopy <span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>
@@ -155,7 +155,7 @@ export default function Gallery() {
             <a
               className="carousel-card"
               key={g.src + i}
-              href="https://instagram.com/drinkloop.co"
+              href="#" onClick={(e) => e.preventDefault()}
               target="_blank"
               rel="noreferrer"
               style={{ '--i': i }}
@@ -187,7 +187,7 @@ export default function Gallery() {
         </div>
       </div>
 
-      <p className="gal-note">Foto dari @drinkloop.co · situs ini studi clone, bukan situs resmi.</p>
+      <p className="gal-note">Foto ilustrasi dari sesi studi · situs ini clone belajar, bukan situs resmi.</p>
     </section>
   )
 }

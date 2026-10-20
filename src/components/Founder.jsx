@@ -93,7 +93,7 @@ export default function Founder() {
         </figure>
         <div className="fd-stamp" aria-hidden="true">
           <span>Membangun di depan publik</span>
-          <span>Karachi · 2025—</span>
+          <span>Kalimantan · 2026—</span>
         </div>
       </div>
 
@@ -123,7 +123,7 @@ export default function Founder() {
 
         <blockquote className="fd-quote">
           <p>
-            “I started a coffee company, and this is us building @drinkloop in public. The response has been unreal.”
+            “Aku memulai perusahaan kopi, dan inilah kami yang membangunnya di depan publik. Responsnya luar biasa.”
           </p>
           <cite>
             <span className="fd-quote-dot" /> Irfan Junejo · media sosial, Januari 2026
