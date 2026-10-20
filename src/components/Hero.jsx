@@ -57,7 +57,7 @@ export default function Hero({ ready }) {
       stage.classList.add('is-stirring')
       stage.setPointerCapture?.(e.pointerId)
       lastAngle = angleFrom(e)
-      if (badge) badge.textContent = 'Stirring'
+      if (badge) badge.textContent = 'Diaduk'
     }
 
     const onMove = (e) => {
@@ -78,14 +78,14 @@ export default function Hero({ ready }) {
       if (!stirredRef.current && Math.abs(rot) > 260) {
         stirredRef.current = true
         stage.classList.add('is-stirred')
-        if (badge) badge.textContent = 'Nice'
+        if (badge) badge.textContent = 'Mantap'
       }
     }
 
     const onUp = () => {
       dragging = false
       stage.classList.remove('is-stirring')
-      if (badge && !stirredRef.current) badge.textContent = 'Stir'
+      if (badge && !stirredRef.current) badge.textContent = 'Aduk'
     }
 
     const onEnter = () => stage.classList.add('is-hovering')
@@ -151,7 +151,7 @@ export default function Hero({ ready }) {
       <div className="hero-glow" aria-hidden="true" />
       <div className="hero-copy">
         <p className="eyebrow hero-eyebrow">
-          <span className="live-dot" /> Karachi · Coffee shop
+          <span className="live-dot" /> Karachi · Studi desain
         </p>
         <h1 className="hero-title">
           <span className="line">
@@ -159,28 +159,27 @@ export default function Hero({ ready }) {
           </span>
           <span className="line">
             <span>
-              <em>good</em> is
+              <em>enak</em> itu
             </span>
           </span>
           <span className="line">
-            <span>brewing.</span>
+            <span>sedang diseduh.</span>
           </span>
         </h1>
         <p className="hero-lede">
-          Loop Coffee Co. is brewing across Karachi: Bukhari, Phase 8, NN 5 Star and NN Spar are live. Good coffee,
-          priced for every day.
+          LoopCoffeeClone (Version Mufqi) — studi ulang situs Loop Coffee Co.: empat outlet-nya buka di Bukhari, Phase 8, NN 5 Star dan NN Spar. Kopi enak, harga masuk akal.
         </p>
         <div className="hero-actions">
           <a className="btn red" href="#locations">
-            Find a Loop <span aria-hidden="true">→</span>
+            Lihat Lokasi <span aria-hidden="true">→</span>
           </a>
           <a className="btn ghost" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Follow @drinkloop.co <span aria-hidden="true">↗</span>
+            Lihat @drinkloop.co <span aria-hidden="true">↗</span>
           </a>
         </div>
         <div className="hero-foot">
           <span className="hero-live">
-            <span className="live-dot" /> 4 outlets live
+            <span className="live-dot" /> 4 outlet buka
           </span>
           <span className="hero-coords">24.8650° N · 67.0550° E</span>
           <a className="scroll-cue" href="#story" aria-label="Scroll to the loop">

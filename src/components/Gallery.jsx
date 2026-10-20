@@ -187,7 +187,7 @@ export default function Gallery() {
         </div>
       </div>
 
-      <p className="gal-note">Photos from @drinkloop.co · loop to supply full-size originals.</p>
+      <p className="gal-note">Foto dari @drinkloop.co · situs ini studi clone, bukan situs resmi.</p>
     </section>
   )
 }

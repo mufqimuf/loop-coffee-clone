@@ -1,5 +1,19 @@
 import { useEffect, useState } from 'react'
 
+function useJakartaTime() {
+  const [time, setTime] = useState('--:--:--')
+  useEffect(() => {
+    const fmt = new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'Asia/Jakarta', hour: '2-digit', minute: '2-digit', hour12: false,
+    })
+    const tick = () => setTime(fmt.format(new Date()))
+    tick()
+    const id = window.setInterval(tick, 1000)
+    return () => window.clearInterval(id)
+  }, [])
+  return time
+}
+
 function useKarachiTime() {
   const [time, setTime] = useState('--:--:--')
 
@@ -20,10 +34,11 @@ function useKarachiTime() {
   return time
 }
 
-const loop = ['Stay in the loop', 'Bukhari', 'Phase 8', 'NN 5 Star', 'NN Spar', 'Karachi']
+const loop = ['Tetap dalam loop', 'Bukhari', 'Phase 8', 'NN 5 Star', 'NN Spar', 'Karachi']
 
 export default function Footer() {
   const time = useKarachiTime()
+  const jakTime = useJakartaTime()
 
   return (
     <footer className="foot">
@@ -43,7 +58,7 @@ export default function Footer() {
 
       <div className="ft-top">
         <div className="ft-brand">
-          <a className="brand is-light" href="#home" aria-label="Loop Coffee Co., home">
+          <a className="brand is-light" href="#home" aria-label="LoopCoffeeClone, beranda">
             <svg className="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
               <circle cx="32" cy="32" r="32" fill="var(--red)" />
               <path
@@ -62,14 +77,14 @@ export default function Footer() {
               />
               <circle cx="32" cy="32" r="4.2" fill="var(--bg)" />
             </svg>
-            <span className="brand-name">Loop Coffee Co.</span>
+            <span className="brand-name">CopyMufqi</span>
           </a>
           <p>
-            Specialty coffee in Karachi. Four outlets live, more brewing.
-            <em> Stay in the loop.</em>
+            Studi desain web — clone dari Loop Coffee Co. Empat outlet aslinya buka, sisanya cerita.
+            <em> Tetap dalam loop.</em>
           </p>
           <a className="ft-follow" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Follow @drinkloop.co <span aria-hidden="true">↗</span>
+            Lihat aslinya @drinkloop.co <span aria-hidden="true">↗</span>
           </a>
           <div className="ft-live">
             <span className="live-dot" /> 4 outlets live · Karachi
@@ -139,11 +154,21 @@ export default function Footer() {
       </div>
 
       <div className="ft-bottom">
-        <span>© 2026 Loop Coffee Co.</span>
-        <span className="ft-time">
-          Karachi <b>{time}</b> PKT
+        <span>© 2026 CopyMufqi — studi desain</span>
+        <span className="ft-mid">
+          Terinspirasi dari{' '}
+          <a href="https://drinkloop.co" target="_blank" rel="noreferrer">
+            Loop Coffee Co.
+          </a>{' '}
+          oleh Irfan Junejo · proyek asli:{' '}
+          <a href="https://drinkloop.co" target="_blank" rel="noreferrer">
+            drinkloop.co
+          </a>
         </span>
-        <span className="ft-mid">A website proposal · not affiliated</span>
+        <span className="ft-time">
+          Karachi <b>{time}</b> PKT · Jakarta <b>{jakTime}</b> WIB
+        </span>
+        <span className="ft-mid">Clone untuk belajar · bukan afiliasi resmi</span>
         <a className="ft-top-link" href="#home">
           Back to top ↑
         </a>

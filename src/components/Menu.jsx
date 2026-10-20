@@ -83,14 +83,14 @@ export default function Menu() {
 
       <div className="menu-grid">
         <aside className="price-side" aria-live="polite">
-          <span className="price-label">Rs</span>
+          <span className="price-label">Rp</span>
           <div className={`price-big${hovered ? ' is-live' : ''}`}>
             <RollNumber value={hovered ? drink.price : 0} digits={4} />
           </div>
           <div className="price-meta">
             <span className="price-dot" />
             <span className="price-name">{hovered ? drink.name : 'Most cups'}</span>
-            <span className="price-rank">{hovered ? 'On the bar' : 'Rs 0000 — pick one'}</span>
+            <span className="price-rank">{hovered ? 'Lagi di barnya' : 'Rp 0.000 — pilih satu'}</span>
           </div>
 
           <div className="price-art" aria-hidden="true">
@@ -131,7 +131,7 @@ export default function Menu() {
                 <span className="drink-top">
                   <span className="drink-name">{d.name}</span>
                   <span className="drink-price">
-                    <small>Rs</small> {d.price.toLocaleString('en-US')}
+                    <small>Rp</small> {d.price.toLocaleString('en-US')}
                   </span>
                 </span>
                 <span className="drink-desc">{d.desc}</span>

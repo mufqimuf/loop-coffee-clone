@@ -208,7 +208,7 @@ export default function Locations() {
               </button>
             </div>
 
-            <p className="map-credit">Map data © OpenStreetMap contributors (ODbL)</p>
+            <p className="map-credit">Data peta © OpenStreetMap contributors (ODbL)</p>
           </div>
           <p className="map-note">
             <span className="live-dot" /> The Phase 8 pin is the address on Loop&apos;s Google Maps link; the others

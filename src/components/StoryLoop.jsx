@@ -141,7 +141,7 @@ export default function StoryLoop() {
 
             <div className="loop-core">
               <span className="loop-inf">∞</span>
-              <span className="loop-core-label">Stay in the loop</span>
+              <span className="loop-core-label">Tetap dalam loop</span>
               <span className="loop-core-step">
                 {active.index} / 04
               </span>

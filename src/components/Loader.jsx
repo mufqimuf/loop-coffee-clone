@@ -47,7 +47,7 @@ export default function Loader({ onDone }) {
       <div className="loader-inner">
         <div className="loader-top">
           <span className="loader-brand">
-            <span className="mark">∞</span> Loop Coffee Co.
+            <span className="mark">∞</span> LoopCoffeeClone · by Mufqi
           </span>
           <span className="loader-tag">Karachi · PK</span>
         </div>

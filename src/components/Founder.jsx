@@ -3,9 +3,9 @@ import { gsap } from '../lib/scroll'
 import { timeline } from '../data'
 
 const stats = [
-  { value: 47, suffix: 'K', label: 'Followers' },
-  { value: 8, suffix: '', label: 'Drinks' },
-  { value: 4, suffix: '', label: 'Outlets' },
+  { value: 47, suffix: 'K', label: 'Pengikut' },
+  { value: 8, suffix: '', label: 'Menu minuman' },
+  { value: 4, suffix: '', label: 'Outlet' },
 ]
 
 export default function Founder() {
@@ -82,24 +82,24 @@ export default function Founder() {
     <section className="founder" id="founder" ref={rootRef}>
       <div className="founder-media">
         <figure className="fd-photo">
-          <img src="assets/portrait.jpg" alt="Irfan Junejo, founder of Loop Coffee Co." />
+          <img src="assets/portrait.jpg" alt="Irfan Junejo, pendiri Loop Coffee Co." />
           <figcaption>
             <span>Irfan Junejo</span>
-            <small>Founder · Loop Coffee Co.</small>
+            <small>Pendiri · Loop Coffee Co. (proyek asli)</small>
           </figcaption>
           <span className="fd-corner" aria-hidden="true">
             IJ
           </span>
         </figure>
         <div className="fd-stamp" aria-hidden="true">
-          <span>Building in public</span>
+          <span>Membangun di depan publik</span>
           <span>Karachi · 2025—</span>
         </div>
       </div>
 
       <div className="founder-copy">
         <p className="eyebrow">
-          <span className="dot" /> The founder
+          <span className="dot" /> Tokoh di baliknya
         </p>
         <h2 className="founder-head display">
           <span className="line">
@@ -113,12 +113,12 @@ export default function Founder() {
         </h2>
 
         <p className="fd-lede">
-          Irfan started vlogging in 2017 while working as a mobile app designer, and became known for his storytelling
-          and his line <em>“Scenes kuch aisay hain.”</em>
+          Irfan mulai vlogging tahun 2017 saat masih jadi desainer aplikasi mobile, lalu dikenal lewat gaya berceritanya
+          dan kalimat khasnya <em>“Scenes kuch aisay hain.”</em>
         </p>
         <p className="fd-lede">
-          Loop is his coffee company: good coffee, priced for every day, grown by word of mouth and the people who line
-          up for it.
+          Loop adalah perusahaan kopinya: kopi enak, harga masuk akal, tumbuh dari mulut ke mulut dan orang-orang yang
+          rela antre untuknya.
         </p>
 
         <blockquote className="fd-quote">
@@ -126,7 +126,7 @@ export default function Founder() {
             “I started a coffee company, and this is us building @drinkloop in public. The response has been unreal.”
           </p>
           <cite>
-            <span className="fd-quote-dot" /> Irfan Junejo · on social media, January 2026
+            <span className="fd-quote-dot" /> Irfan Junejo · media sosial, Januari 2026
           </cite>
         </blockquote>
 
@@ -141,7 +141,7 @@ export default function Founder() {
           ))}
         </div>
 
-        <ol className="fd-timeline" aria-label="Loop Coffee Co. timeline">
+        <ol className="fd-timeline" aria-label="Perjalanan Loop Coffee Co.">
           <span className="fd-line" aria-hidden="true">
             <i />
           </span>

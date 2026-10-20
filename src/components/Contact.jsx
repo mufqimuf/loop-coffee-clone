@@ -104,7 +104,7 @@ export default function Contact() {
       <div className="contact-card">
         <div className="contact-card-copy">
           <p className="eyebrow is-light">
-            <span className="live-dot" /> Stay in the loop
+            <span className="live-dot" /> Tetap dalam loop
           </p>
           <h3>
             New openings, new drinks and everything in between.
