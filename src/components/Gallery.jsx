@@ -137,9 +137,9 @@ export default function Gallery() {
           </span>
         </h2>
         <div className="gal-side">
-          <p>The bar, the team, the cups: straight from Loop&apos;s Instagram. Drag the ring, or just keep scrolling.</p>
+          <p>Barnya, timnya, cangkirnya: langsung dari Instagram Loop. Geser ring-nya, atau lanjut scroll aja.</p>
           <a className="btn light" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Follow @drinkloop.co <span aria-hidden="true">↗</span>
+            Ikuti @drinkloop.co <span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>

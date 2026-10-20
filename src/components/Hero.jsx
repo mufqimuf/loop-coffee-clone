@@ -155,7 +155,7 @@ export default function Hero({ ready }) {
         </p>
         <h1 className="hero-title">
           <span className="line">
-            <span>Something</span>
+            <span>Sesuatu</span>
           </span>
           <span className="line">
             <span>
@@ -182,8 +182,8 @@ export default function Hero({ ready }) {
             <span className="live-dot" /> 4 outlet buka
           </span>
           <span className="hero-coords">24.8650° N · 67.0550° E</span>
-          <a className="scroll-cue" href="#story" aria-label="Scroll to the loop">
-            <span>Scroll</span>
+          <a className="scroll-cue" href="#story" aria-label="Gulir ke cerita">
+            <span>Gulir</span>
             <i />
           </a>
         </div>
@@ -272,7 +272,7 @@ export default function Hero({ ready }) {
           </div>
 
           <p className="cup-cap">
-            <span>Move across the cup to stir it</span>
+            <span>Geser di atas cangkir buat ngaduk</span>
             <span className="cup-cap-arrow" aria-hidden="true">
               ↺
             </span>

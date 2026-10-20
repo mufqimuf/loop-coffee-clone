@@ -68,7 +68,7 @@ export default function StoryLoop() {
       <div className="story-sticky">
         <div className="story-copy">
           <p className="eyebrow">
-            <span className="dot" /> The loop · 01 — 04
+            <span className="dot" /> Loop-nya · 01 — 04
           </p>
           <h2 className="story-head display">
             <span className="line">
@@ -93,7 +93,7 @@ export default function StoryLoop() {
             </div>
           </div>
 
-          <ol className="story-steps" aria-label="The loop, four steps">
+          <ol className="story-steps" aria-label="Loop-nya, empat langkah">
             {steps.map((s, i) => (
               <li key={s.id} className={i === step ? 'is-active' : ''}>
                 <button type="button" onClick={() => jumpTo(i)}>

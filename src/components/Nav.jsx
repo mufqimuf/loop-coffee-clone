@@ -114,7 +114,7 @@ export default function Nav() {
         <nav className="nav" aria-label="Main">
           {['story', 'menu', 'founder', 'locations', 'contact'].map((id, i) => (
             <a key={id} href={`#${id}`} onClick={() => setOpen(false)}>
-              {['The loop', 'Menu', 'Founder', 'Locations', 'Contact'][i]}
+              {['Cerita', 'Menu', 'Tokoh', 'Lokasi', 'Kontak'][i]}
             </a>
           ))}
         </nav>
@@ -136,7 +136,7 @@ export default function Nav() {
             <span className="snd-text">{on ? 'Sound on' : 'Sound'}</span>
           </button>
           <a className="btn small" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Follow <span aria-hidden="true">↗</span>
+            Ikuti <span aria-hidden="true">↗</span>
           </a>
           <button
             type="button"
@@ -156,11 +156,11 @@ export default function Nav() {
           {['story', 'menu', 'founder', 'locations', 'contact'].map((id, i) => (
             <a key={id} href={`#${id}`} onClick={() => setOpen(false)}>
               <span>0{i + 1}</span>
-              {['The loop', 'Menu', 'Founder', 'Locations', 'Contact'][i]}
+              {['Cerita', 'Menu', 'Tokoh', 'Lokasi', 'Kontak'][i]}
             </a>
           ))}
           <a className="btn red" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Follow @drinkloop.co ↗
+            Ikuti @drinkloop.co ↗
           </a>
         </div>
       </div>

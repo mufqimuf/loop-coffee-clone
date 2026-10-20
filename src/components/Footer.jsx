@@ -95,7 +95,7 @@ export default function Footer() {
           <h3>Explore</h3>
           <ul>
             <li>
-              <a href="#story">The loop</a>
+              <a href="#story">Cerita</a>
             </li>
             <li>
               <a href="#menu">Menu</a>

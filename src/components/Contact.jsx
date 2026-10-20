@@ -108,12 +108,12 @@ export default function Contact() {
           </p>
           <h3>
             New openings, new drinks and everything in between.
-            <em> Follow Loop on Instagram, or call the bar.</em>
+            <em> Ikuti Loop di Instagram, atau telepon barnya.</em>
           </h3>
         </div>
         <div className="contact-card-actions">
           <a className="btn light" href="https://instagram.com/drinkloop.co" target="_blank" rel="noreferrer">
-            Follow @drinkloop.co <span aria-hidden="true">↗</span>
+            Ikuti @drinkloop.co <span aria-hidden="true">↗</span>
           </a>
           <a className="btn red" href="tel:+923071115667">
             Call {PHONE} <span aria-hidden="true">→</span>
