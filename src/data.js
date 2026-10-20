@@ -116,8 +116,8 @@ export const outlets = [
     tag: 'Buka · di sinilah dimulai',
     area: 'Balikpapan, Kaltim',
     address: 'Jl. Jenderal Sudirman, Balikpapan, Kalimantan Timur',
-    x: 63,
-    y: 47,
+    x: 86,
+    y: 71,
   },
   {
     id: 'samarinda',
@@ -126,8 +126,8 @@ export const outlets = [
     tag: 'Buka · tepi Mahakam',
     area: 'Samarinda, Kaltim',
     address: 'Jl. Gajah Mada, Samarinda, Kalimantan Timur',
-    x: 52,
-    y: 40,
+    x: 80,
+    y: 66,
   },
   {
     id: 'banjarmasin',
@@ -136,8 +136,8 @@ export const outlets = [
     tag: 'Buka · kota seribu sungai',
     area: 'Banjarmasin, Kalsel',
     address: 'Jl. Pangeran Antasari, Banjarmasin, Kalimantan Selatan',
-    x: 73,
-    y: 28,
+    x: 46,
+    y: 80,
   },
   {
     id: 'palangkaraya',
@@ -146,8 +146,8 @@ export const outlets = [
     tag: 'Buka · jantung Kalimantan',
     area: 'Palangka Raya, Kalteng',
     address: 'Jl. Diponegoro, Palangka Raya, Kalimantan Tengah',
-    x: 64,
-    y: 23,
+    x: 44,
+    y: 55,
   },
 ]
 

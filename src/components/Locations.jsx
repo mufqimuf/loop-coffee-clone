@@ -111,55 +111,55 @@ export default function Locations() {
                 </g>
                 <path
                   className="land"
-                  d="M0,0 H800 V600 H520 C500,548 502,478 462,446 C422,414 424,362 382,332 C340,302 350,252 302,232 C254,212 252,160 202,140 C152,120 132,72 92,42 C58,16 22,10 0,0 Z"
+                  d="M60,190 C70,140 120,105 190,88 C260,70 330,62 400,68 C470,74 540,85 600,105 C660,125 705,155 720,200 C735,245 725,295 705,340 C688,380 668,415 640,445 C615,472 585,490 550,500 C520,508 490,505 465,492 C440,480 420,462 400,448 C380,435 358,428 335,432 C310,437 288,445 265,440 C240,435 220,418 205,395 C190,372 180,350 168,330 C155,308 138,295 120,285 C98,272 80,255 68,235 C58,218 55,205 60,190 Z"
+                />
+                {/* Sungai Mahakam — Samarinda di tepinya */}
+                <path
+                  className="rd river"
+                  d="M430,160 C445,200 470,230 520,250 C570,270 610,290 640,320 C665,345 678,370 680,400 C681,430 672,455 655,475"
+                  fill="none"
+                />
+                {/* Sungai Barito — Banjarmasin delta */}
+                <path
+                  className="rd river"
+                  d="M300,300 C315,340 330,370 340,410 C350,445 360,470 370,490"
+                  fill="none"
                 />
                 <g className="blocks">
                   {[
-                    [470, 60, 90, 54],
-                    [590, 40, 120, 64],
-                    [430, 150, 70, 60],
-                    [540, 140, 96, 74],
-                    [660, 130, 80, 50],
-                    [470, 250, 60, 70],
-                    [560, 240, 84, 52],
-                    [676, 220, 88, 62],
-                    [520, 330, 66, 48],
-                    [620, 320, 104, 64],
-                    [710, 300, 60, 90],
-                    [430, 380, 56, 46],
-                    [580, 410, 72, 54],
-                    [682, 430, 80, 66],
-                    [470, 470, 44, 50],
-                    [640, 500, 96, 52],
-                    [740, 510, 48, 54],
+                    [300, 320, 34, 22], [350, 330, 28, 18], [310, 360, 26, 20],
+                    [355, 360, 30, 16], [395, 335, 24, 18], [330, 300, 22, 14],
+                    [230, 400, 26, 16], [270, 415, 30, 18], [410, 300, 20, 14],
                   ].map(([x, y, w, h], i) => (
-                    <rect key={i} x={x} y={y} width={w} height={h} rx="4" />
+                    <rect key={i} x={x} y={y} width={w} height={h} rx="3" />
                   ))}
                 </g>
                 <g className="roads">
-                  <path className="rd c1" d="M402,600 C424,512 452,470 486,420 C520,370 548,300 574,230 C594,176 618,128 648,84" />
-                  <path className="rd c2" d="M520,600 C540,530 566,486 610,452 C660,414 706,396 800,382" />
-                  <path className="rd c2" d="M400,352 C470,344 548,332 622,308 C700,282 750,264 800,258" />
-                  <path className="rd c3" d="M450,500 C510,486 566,462 610,428" />
-                  <path className="rd c3" d="M520,260 C570,240 640,222 706,212" />
-                  <path className="rd c3" d="M590,560 C606,520 626,490 656,470" />
-                  <path className="rd c3" d="M452,170 C500,186 540,210 566,240" />
+                  <path className="rd c1" d="M180,300 C240,320 300,318 360,335 C420,352 470,360 520,355" />
+                  <path className="rd c2" d="M310,360 C330,400 340,430 335,460 C332,480 325,495 320,505" />
+                  <path className="rd c2" d="M360,335 C390,360 420,385 450,400" />
+                  <path className="rd c3" d="M225,415 C260,420 300,418 335,410" />
+                  <path className="rd c3" d="M330,300 C345,320 360,340 380,355" />
+                  <path className="rd c3" d="M450,400 C470,415 490,425 515,430" />
                 </g>
                 <g className="map-labels">
-                  <text className="lb sea" x="130" y="470">
+                  <text className="lb sea" x="760" y="480">
                     Selat Makassar
                   </text>
-                  <text className="lb" x="560" y="222">
+                  <text className="lb sea" x="130" y="520">
+                    Laut Jawa
+                  </text>
+                  <text className="lb" x="620" y="345">
                     Sudirman
                   </text>
-                  <text className="lb" x="662" y="188">
+                  <text className="lb" x="660" y="390">
                     Gajah Mada
                   </text>
-                  <text className="lb" x="700" y="142">
+                  <text className="lb" x="360" y="480">
                     Antasari
                   </text>
-                  <text className="lb" x="520" y="520">
-                    Shahrah-e-Faisal
+                  <text className="lb" x="250" y="330">
+                    Sungai Barito
                   </text>
                 </g>
                 <path className="compass" d="M730,520 l0,-34 m-10,12 l10,-12 l10,12" />
@@ -211,8 +211,8 @@ export default function Locations() {
             <p className="map-credit">Data peta © OpenStreetMap contributors (ODbL)</p>
           </div>
           <p className="map-note">
-            <span className="live-dot" /> Pin Balikpapan adalah alamat fiksi proyek ini; sisanya
-            mark the neighbourhood named in the bio.
+            <span className="live-dot" /> Pin-pin di peta ini posisinya mengikuti lokasi asli keempat kota di
+            Kalimantan; alamatnya fiksi proyek ini.
           </p>
         </div>
       </div>
