@@ -72,11 +72,11 @@ export default function StoryLoop() {
           </p>
           <h2 className="story-head display">
             <span className="line">
-              <span>Every cup</span>
+              <span>Setiap cangkir</span>
             </span>
             <span className="line">
               <span>
-                comes <em>full circle.</em>
+                kembali <em>ke awal.</em>
               </span>
             </span>
           </h2>
@@ -95,7 +95,7 @@ export default function StoryLoop() {
 
           <ol className="story-steps" aria-label="Loop-nya, empat langkah">
             {steps.map((s, i) => (
-              <li key={s.id} className={i === step ? 'is-active' : ''}>
+              <li key={s.id} className={i === step ? ' is-active' : ''}>
                 <button type="button" onClick={() => jumpTo(i)}>
                   <span>{s.index}</span>
                   <b>{s.word}</b>

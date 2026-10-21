@@ -52,12 +52,12 @@ export default function Contact() {
     <section className="contact" id="contact" ref={rootRef}>
       <div className="contact-head">
         <p className="eyebrow">
-          <span className="dot" /> Contact · Open daily
+          <span className="dot" /> Kontak · Buka tiap hari
         </p>
         <h2 className="display">
           <span className="line">
             <span>
-              Bilang <em>halo.</em>
+              Mari <em>berbincang.</em>
             </span>
           </span>
         </h2>
@@ -69,33 +69,33 @@ export default function Contact() {
           {PHONE}
         </a>
         <button type="button" className={`copy${copied ? ' is-copied' : ''}`} onClick={copy}>
-          <span>{copied ? 'Copied' : 'Copy number'}</span>
+          <span>{copied ? 'Tersalin' : 'Salin nomor'}</span>
           <i aria-hidden="true">{copied ? '✓' : '⧉'}</i>
         </button>
       </div>
 
       <div className="contact-grid">
         <div className="contact-cell">
-          <small>Call</small>
+          <small>Telepon</small>
           <a href="tel:+628566121052">+62 856-6121-052</a>
-          <span>Daily · 7:00 — 23:00</span>
+          <span>Setiap hari · 07.00 — 23.00</span>
         </div>
         <div className="contact-cell">
           <small>Instagram</small>
           <a href="#" onClick={(e) => e.preventDefault()}>
             @minumcopy ↗
           </a>
-          <span>47K followers · DMs open</span>
+          <span>47K pengikut · DM terbuka</span>
         </div>
         <div className="contact-cell">
-          <small>Website</small>
+          <small>Situs</small>
           <a href="#" onClick={(e) => e.preventDefault()}>
             minumcopy.co ↗
           </a>
-          <span>New openings announced here first</span>
+          <span>Outlet baru diumumkan di sini lebih dulu</span>
         </div>
         <div className="contact-cell">
-          <small>City</small>
+          <small>Kota</small>
           <b>Balikpapan, Indonesia</b>
           <span>Balikpapan · Samarinda · Banjarmasin · Palangka Raya</span>
         </div>
@@ -107,8 +107,8 @@ export default function Contact() {
             <span className="live-dot" /> Tetap dalam loop
           </p>
           <h3>
-            New openings, new drinks and everything in between.
-            <em> Ikuti Loop di Instagram, atau telepon barnya.</em>
+            Outlet baru, minuman baru, dan semua yang di antaranya.
+            <em> Ikuti CopyMufqi di Instagram, atau telepon barnya.</em>
           </h3>
         </div>
         <div className="contact-card-actions">

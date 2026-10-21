@@ -77,6 +77,7 @@ export default function Gallery() {
     const onEnter = () => {
       hovering = true
     }
+
     const onLeave = () => {
       hovering = false
       draggingNow = false
@@ -132,12 +133,12 @@ export default function Gallery() {
         <h2 className="display">
           <span className="line">
             <span>
-              Straight from <em>the feed.</em>
+              Langsung dari <em>feed.</em>
             </span>
           </span>
         </h2>
         <div className="gal-side">
-          <p>Barnya, timnya, cangkirnya: langsung dari Instagram Loop. Geser ring-nya, atau lanjut scroll aja.</p>
+          <p>Barnya, timnya, cangkirnya: langsung dari Instagram CopyMufqi. Geser ring-nya, atau teruskan gulir saja.</p>
           <a className="btn light" href="#" onClick={(e) => e.preventDefault()} target="_blank" rel="noreferrer">
             Ikuti @minumcopy <span aria-hidden="true">↗</span>
           </a>
@@ -147,8 +148,8 @@ export default function Gallery() {
       <div
         className={`carousel${dragging ? ' is-dragging' : ''}`}
         ref={stageRef}
-        data-cursor="drag"
-        aria-label="Instagram photo carousel. Drag to turn."
+        data-cursor="geser"
+        aria-label="Karusel foto Instagram. Geser untuk memutar."
       >
         <div className="carousel-ring" ref={ringRef}>
           {gallery.map((g, i) => (
@@ -172,22 +173,22 @@ export default function Gallery() {
           ))}
         </div>
         <div className="carousel-badge" aria-hidden="true">
-          <span>Drag</span>
-          <span>to turn</span>
+          <span>Geser</span>
+          <span>untuk memutar</span>
           <i>↺</i>
         </div>
         <div className="carousel-controls">
-          <button type="button" onClick={() => nudge(-1)} aria-label="Previous photos">
+          <button type="button" onClick={() => nudge(-1)} aria-label="Foto sebelumnya">
             ←
           </button>
-          <span>{gallery.length} frames · ∞ loop</span>
-          <button type="button" onClick={() => nudge(1)} aria-label="Next photos">
+          <span>{gallery.length} bingkai · ∞ loop</span>
+          <button type="button" onClick={() => nudge(1)} aria-label="Foto berikutnya">
             →
           </button>
         </div>
       </div>
 
-      <p className="gal-note">Foto ilustrasi dari sesi studi · situs ini clone belajar, bukan situs resmi.</p>
+      <p className="gal-note">Foto ilustrasi dari sesi studi · situs ini clone untuk belajar, bukan situs resmi.</p>
     </section>
   )
 }

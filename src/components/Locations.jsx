@@ -84,8 +84,7 @@ export default function Locations() {
             </article>
           ))}
           <p className="outlet-note">
-            Daftar outlet versi fiksi proyek ini, Oktober 2026. Outlet berikutnya diumumkan lewat @minumcopy
-            first.
+            Daftar outlet versi fiksi proyek ini, Oktober 2026. Outlet berikutnya diumumkan lebih dulu lewat @minumcopy.
           </p>
         </div>
 
@@ -183,7 +182,7 @@ export default function Locations() {
             </div>
 
             <div className="map-hud">
-              <small>Now showing</small>
+              <small>Sedang tampil</small>
               <b>Kalimantan</b>
               <span>1.2379° S · 116.8529° E</span>
               <span className="map-hud-live">
@@ -195,20 +194,20 @@ export default function Locations() {
               <button
                 type="button"
                 onClick={() => setZoom((z) => Math.min(1.6, Number((z + 0.2).toFixed(2))))}
-                aria-label="Zoom in"
+                aria-label="Perbesar"
               >
                 +
               </button>
               <button
                 type="button"
                 onClick={() => setZoom((z) => Math.max(1, Number((z - 0.2).toFixed(2))))}
-                aria-label="Zoom out"
+                aria-label="Perkecil"
               >
                 −
               </button>
             </div>
 
-            <p className="map-credit">Data peta © OpenStreetMap contributors (ODbL)</p>
+            <p className="map-credit">Data peta © Kontributor OpenStreetMap (ODbL)</p>
           </div>
           <p className="map-note">
             <span className="live-dot" /> Pin-pin di peta ini posisinya mengikuti lokasi asli keempat kota di

@@ -47,18 +47,18 @@ export default function Loader({ onDone }) {
       <div className="loader-inner">
         <div className="loader-top">
           <span className="loader-brand">
-            <span className="mark">∞</span> LoopCoffeeClone · by Mufqi
+            <span className="mark">∞</span> LoopCoffeeClone · oleh Mufqi
           </span>
           <span className="loader-tag">Kalimantan · ID</span>
         </div>
         <div className="loader-mid">
-          <span className="loader-word">Brewing</span>
+          <span className="loader-word">Menyeduh</span>
           <span className="loader-num" ref={numRef}>
             000
           </span>
         </div>
         <div className="loader-bottom">
-          <span className="loader-note">Something good is loading</span>
+          <span className="loader-note">Sesuatu yang enak sedang dimuat</span>
           <span className="loader-line">
             <i ref={barRef} />
           </span>

@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 
-function useJakartaTime() {
+function useWibTime() {
   const [time, setTime] = useState('--:--:--')
   useEffect(() => {
-    const fmt = new Intl.DateTimeFormat('en-GB', {
+    const fmt = new Intl.DateTimeFormat('id-ID', {
       timeZone: 'Asia/Jakarta', hour: '2-digit', minute: '2-digit', hour12: false,
     })
     const tick = () => setTime(fmt.format(new Date()))
@@ -14,11 +14,11 @@ function useJakartaTime() {
   return time
 }
 
-function useKarachiTime() {
+function useWitaTime() {
   const [time, setTime] = useState('--:--:--')
 
   useEffect(() => {
-    const fmt = new Intl.DateTimeFormat('en-GB', {
+    const fmt = new Intl.DateTimeFormat('id-ID', {
       timeZone: 'Asia/Makassar',
       hour: '2-digit',
       minute: '2-digit',
@@ -37,8 +37,8 @@ function useKarachiTime() {
 const loop = ['Tetap dalam loop', 'Balikpapan', 'Samarinda', 'Banjarmasin', 'Palangka Raya', 'Kalimantan']
 
 export default function Footer() {
-  const time = useKarachiTime()
-  const jakTime = useJakartaTime()
+  const time = useWitaTime()
+  const jakTime = useWibTime()
 
   return (
     <footer className="foot">
@@ -58,7 +58,7 @@ export default function Footer() {
 
       <div className="ft-top">
         <div className="ft-brand">
-          <a className="brand is-light" href="#home" aria-label="LoopCoffeeClone, beranda">
+          <a className="brand is-light" href="#home" aria-label="CopyMufqi, beranda">
             <svg className="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
               <circle cx="32" cy="32" r="32" fill="var(--red)" />
               <path
@@ -92,7 +92,7 @@ export default function Footer() {
         </div>
 
         <div className="ft-col">
-          <h3>Explore</h3>
+          <h3>Jelajahi</h3>
           <ul>
             <li>
               <a href="#story">Cerita</a>
@@ -101,19 +101,19 @@ export default function Footer() {
               <a href="#menu">Menu</a>
             </li>
             <li>
-              <a href="#founder">Founder</a>
+              <a href="#founder">Tokoh</a>
             </li>
             <li>
               <a href="#gallery">Instagram</a>
             </li>
             <li>
-              <a href="#locations">Locations</a>
+              <a href="#locations">Lokasi</a>
             </li>
           </ul>
         </div>
 
         <div className="ft-col">
-          <h3>Find us</h3>
+          <h3>Temukan kami</h3>
           <ul>
             <li>
               <a href="#locations">Balikpapan · Kaltim</a>
@@ -131,7 +131,7 @@ export default function Footer() {
         </div>
 
         <div className="ft-col">
-          <h3>Bilang halo</h3>
+          <h3>Mari Berbincang</h3>
           <ul>
             <li>
               <a href="tel:+628566121052">+62 856-6121-052</a>

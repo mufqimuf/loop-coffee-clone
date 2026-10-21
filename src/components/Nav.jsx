@@ -111,7 +111,7 @@ export default function Nav() {
           <span className="brand-name">CopyMufqi</span>
         </a>
 
-        <nav className="nav" aria-label="Main">
+        <nav className="nav" aria-label="Navigasi utama">
           {['story', 'menu', 'founder', 'locations', 'contact'].map((id, i) => (
             <a key={id} href={`#${id}`} onClick={() => setOpen(false)}>
               {['Cerita', 'Menu', 'Tokoh', 'Lokasi', 'Kontak'][i]}
@@ -125,7 +125,7 @@ export default function Nav() {
             className={`snd${on ? ' is-on' : ''}`}
             onClick={toggle}
             aria-pressed={on}
-            aria-label={on ? 'Turn the sound off' : 'Turn the sound on'}
+            aria-label={on ? 'Matikan suara' : 'Nyalakan suara'}
           >
             <span className="snd-bars" aria-hidden="true">
               <i />
@@ -133,7 +133,7 @@ export default function Nav() {
               <i />
               <i />
             </span>
-            <span className="snd-text">{on ? 'Sound on' : 'Sound'}</span>
+            <span className="snd-text">{on ? 'Suara aktif' : 'Suara'}</span>
           </button>
           <a className="btn small" href="#" onClick={(e) => e.preventDefault()}>
             Ikuti <span aria-hidden="true">↗</span>
@@ -142,7 +142,7 @@ export default function Nav() {
             type="button"
             className={`burger${open ? ' is-open' : ''}`}
             aria-expanded={open}
-            aria-label={open ? 'Close menu' : 'Open menu'}
+            aria-label={open ? 'Tutup menu' : 'Buka menu'}
             onClick={() => setOpen((v) => !v)}
           >
             <i />

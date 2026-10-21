@@ -33,7 +33,7 @@ function ScrollUI() {
   return (
     <>
       <div className="scroll-progress" style={{ transform: `scaleX(${progress})` }} aria-hidden="true" />
-      <a className={`to-top${progress > 0.12 ? ' is-visible' : ''}`} href="#home" aria-label="Back to top">
+      <a className={`to-top${progress > 0.12 ? ' is-visible' : ''}`} href="#home" aria-label="Kembali ke atas">
         ↑
       </a>
     </>
@@ -68,7 +68,7 @@ export default function App() {
   return (
     <>
       <a className="skip" href="#main">
-        Skip to the content
+        Lompat ke konten
       </a>
       <Loader onDone={handleDone} />
       <Cursor />

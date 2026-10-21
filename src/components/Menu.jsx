@@ -67,17 +67,17 @@ export default function Menu() {
     <section className="menu" id="menu" ref={rootRef}>
       <div className="menu-head">
         <p className="eyebrow">
-          <span className="dot" /> Menu · From the bar
+          <span className="dot" /> Menu · Dari barnya
         </p>
         <h2 className="display">
           <span className="line">
             <span>
-              The bar is <em>open.</em>
+              Barnya sudah <em>buka.</em>
             </span>
           </span>
         </h2>
         <p className="menu-intro">
-          Eight drinks, four outlets, one loop. Hover a drink to see what it costs.
+          Delapan minuman, empat outlet, satu loop. Arahkan kursor ke salah satu untuk melihat harganya.
         </p>
       </div>
 
@@ -89,20 +89,18 @@ export default function Menu() {
           </div>
           <div className="price-meta">
             <span className="price-dot" />
-            <span className="price-name">{hovered ? drink.name : 'Most cups'}</span>
+            <span className="price-name">{hovered ? drink.name : 'Paling laris'}</span>
             <span className="price-rank">{hovered ? 'Lagi di barnya' : 'Rp 0.000 — pilih satu'}</span>
           </div>
 
           <div className="price-art" aria-hidden="true">
             <img src={drink.art} alt="" key={drink.art} />
-            <span className="price-art-ring">LOOP · COFFEE · CO. · KARACHI · </span>
+            <span className="price-art-ring">LOOP · COFFEE · CO. · KALIMANTAN · </span>
           </div>
 
           <div className="price-foot">
-            <p>
-              Sample menu for this proposal. Loop&apos;s own drinks, prices and photography go here.
-            </p>
-            <span className="price-chip">8 drinks · 4 outlets · 1 loop</span>
+            <p>Contoh menu untuk proyek ini. Minuman, harga, dan fotonya akan diganti dengan milikmu sendiri.</p>
+            <span className="price-chip">8 minuman · 4 outlet · 1 loop</span>
           </div>
         </aside>
 
@@ -131,7 +129,7 @@ export default function Menu() {
                 <span className="drink-top">
                   <span className="drink-name">{d.name}</span>
                   <span className="drink-price">
-                    <small>Rp</small> {d.price.toLocaleString('en-US')}
+                    <small>Rp</small> {d.price.toLocaleString('id-ID')}
                   </span>
                 </span>
                 <span className="drink-desc">{d.desc}</span>
@@ -149,7 +147,7 @@ export default function Menu() {
             </button>
           ))}
           <p className="drink-note">
-            <span className="live-dot" /> Ground every morning from 7. Espresso, filter, cold — all day.
+            <span className="live-dot" /> Digiling setiap pagi sejak pukul 7. Espresso, filter, dingin — sepanjang hari.
           </p>
         </div>
       </div>

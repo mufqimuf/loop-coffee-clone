@@ -91,7 +91,7 @@ export default function Hero({ ready }) {
     const onEnter = () => stage.classList.add('is-hovering')
     const onLeave = () => {
       stage.classList.remove('is-hovering', 'is-stirring')
-      if (badge) badge.textContent = stirredRef.current ? 'Nice' : 'Stir'
+      if (badge) badge.textContent = stirredRef.current ? 'Mantap' : 'Aduk'
     }
 
     stage.addEventListener('pointerdown', onDown)
@@ -167,7 +167,8 @@ export default function Hero({ ready }) {
           </span>
         </h1>
         <p className="hero-lede">
-          LoopCoffeeClone (Version Mufqi) — studi ulang situs Loop Coffee Co.: empat outlet fiktif kami buka di Balikpapan, Samarinda, Banjarmasin dan Palangka Raya. Kopi enak, harga masuk akal.
+          LoopCoffeeClone (Versi Mufqi) — studi ulang situs Loop Coffee Co.: empat outlet fiktif kami buka di Balikpapan,
+          Samarinda, Banjarmasin dan Palangka Raya. Kopi enak, harga masuk akal.
         </p>
         <div className="hero-actions">
           <a className="btn red" href="#locations">
@@ -190,7 +191,7 @@ export default function Hero({ ready }) {
       </div>
 
       <div className="hero-visual">
-        <div className="cup-stage" ref={stageRef} data-cursor="stir">
+        <div className="cup-stage" ref={stageRef} data-cursor="aduk">
           {BEANS.map((b, i) => (
             <span
               key={i}
@@ -208,7 +209,7 @@ export default function Hero({ ready }) {
           <div className="cup" ref={cupRef}>
             <span className="cup-handle" aria-hidden="true" />
             <div className="coffee">
-              <svg className="surface" viewBox="0 0 200 200" role="img" aria-label="A cup of coffee. Drag to stir.">
+              <svg className="surface" viewBox="0 0 200 200" role="img" aria-label="Cangkir kopi. Geser untuk diaduk.">
                 <defs>
                   <radialGradient id="brewGrad" cx="38%" cy="32%" r="78%">
                     <stop offset="0%" stopColor="#c88a56" />
@@ -254,7 +255,7 @@ export default function Hero({ ready }) {
           </div>
 
           <div className="stir-badge" ref={badgeRef} aria-hidden="true">
-            Stir
+            Aduk
           </div>
 
           <div className="cup-stamp" aria-hidden="true">
@@ -264,11 +265,11 @@ export default function Hero({ ready }) {
               </defs>
               <text>
                 <textPath href="#stampCircle" startOffset="0%">
-                  LOOP COFFEE CO. · KARACHI · SINCE 2025 ·
+                  LOOP COFFEE CO. · KALIMANTAN · SEJAK 2025 ·
                 </textPath>
               </text>
+              <span>∞</span>
             </svg>
-            <span>∞</span>
           </div>
 
           <p className="cup-cap">

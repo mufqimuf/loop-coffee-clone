@@ -113,7 +113,7 @@ export default function Founder() {
         </h2>
 
         <p className="fd-lede">
-          Mufqi mulai serius ngoprek AI & automation tahun 2025 saat masih jadi desainer UI/UX, lalu dikenal lewat
+          Mufqi mulai serius ngoprek AI & otomasi tahun 2025 saat masih jadi desainer UI/UX, lalu dikenal lewat
           proyek-proyek isengnya yang dibangun terbuka dan dokumentasinya dibagikan apa adanya di LinkedIn.
         </p>
         <p className="fd-lede">
@@ -123,7 +123,7 @@ export default function Founder() {
 
         <blockquote className="fd-quote">
           <p>
-            “Aku kloning situs kopi ini karna nganggur, dan inilah hasil belajarnya, dibagikan apa adanya.”
+            “Aku kloning situs kopi ini karena ingin berkreasi sendiri, dan inilah hasil belajarnya, dibagikan apa adanya.”
           </p>
           <cite>
             <span className="fd-quote-dot" /> Mufqi Harits · LinkedIn, Oktober 2026
@@ -141,7 +141,7 @@ export default function Founder() {
           ))}
         </div>
 
-        <ol className="fd-timeline" aria-label="Perjalanan Loop Coffee Co.">
+        <ol className="fd-timeline" aria-label="Perjalanan CopyMufqi">
           <span className="fd-line" aria-hidden="true">
             <i />
           </span>

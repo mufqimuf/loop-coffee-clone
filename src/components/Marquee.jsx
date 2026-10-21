@@ -1,4 +1,4 @@
-const ITEMS = ['Balikpapan', 'Samarinda', 'Banjarmasin', 'Palangka Raya', 'Kalimantan', 'Specialty coffee', 'LoopCoffeeClone · vMufqi']
+const ITEMS = ['Balikpapan', 'Samarinda', 'Banjarmasin', 'Palangka Raya', 'Kalimantan', 'Kopi spesialti', 'LoopCoffeeClone · vMufqi']
 
 function Row({ reverse = false, outlined = false }) {
   return (
@@ -19,7 +19,7 @@ function Row({ reverse = false, outlined = false }) {
 
 export default function Marquee() {
   return (
-    <section className="band" aria-label="Lokasi Loop Coffee Co.">
+    <section className="band" aria-label="Lokasi CopyMufqi">
       <Row />
       <Row reverse outlined />
     </section>
